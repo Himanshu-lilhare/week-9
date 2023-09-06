@@ -13,6 +13,13 @@ app.use(express.json());
 // app.use("/user", userRouter)
 
 
+app.get('/',(req,res)=>{
+    res.send("kuch nahi bolte")
+    })
+
+app.get('/hello',(req,res)=>{
+res.send("hello bolte")
+})
 // Connect to MongoDB
 // DONT MISUSE THIS THANKYOU!!
 // mongoose.connect('mongodb://localhost:27017/courses', { useNewUrlParser: true, useUnifiedTopology: true, dbName: "courses" });
