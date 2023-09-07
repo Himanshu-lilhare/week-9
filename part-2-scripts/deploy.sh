@@ -6,3 +6,4 @@ cd Week-9
  cd server
  pm2 kill
  pm2 start index.js
+~                     
